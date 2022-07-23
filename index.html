@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Bài tập 1 -->
+    <div style="width: 700px" class="container">
+      <div class="card">
+        <div class="card-header">Bài tập 1: Quản lý tuyển sinh</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <input
+                  placeholder="Nhập điểm chuẩn"
+                  id="diemChuan"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group mt-4">
+                <input
+                  placeholder="Điểm môn thứ 1"
+                  id="diem1"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <select id="khuVuc" class="form-control">
+                  <option>Chọn khu vực</option>
+                  <option>A</option>
+                  <option>B</option>
+                  <option>C</option>
+                </select>
+              </div>
+              <div class="form-group mt-4">
+                <input
+                  placeholder="Điểm môn 2"
+                  id="diem2"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <select id="doiTuong" class="form-control">
+                  <option>Chọn đối tượng</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-group mt-4">
+                <input
+                  placeholder="điểm môn 3"
+                  id="diem3"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-success mt-4" id="tinhDiem">Kết quả</button>
+        </div>
+        <div class="card-footer text-muted" id="thongBaoDiem"></div>
+      </div>
+    </div>
+    <hr />
+    <!-- Bài tập 2 -->
+    <div style="width: 700px" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài tập 2: Tính tiền điện</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Nhập họ tên</label>
+                <input id="hoTen" type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập số kw</label>
+                <input id="soKW" type="number" class="form-control" />
+              </div>
+              <button class="btn btn-success" id="tinhTien">Tính tiền</button>
+            </div>
+            <div class="card-footer text-muted" id="thongBao2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
